@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+    package:
+        build:
+            context: .
+            dockerfile: Package.Dockerfile
+        volumes_from:
+            - sources
+        depends_on:
+            - redis
+
+    redis:
+        image: redis
+
+    sources:
+        image: ubuntu
+        volumes:
+            - ./:/go/src/user-service-go-client:rw

@@ -1,0 +1,4 @@
+package: bitbucket.lzd.co/lgo/user-service-client
+import:
+- package: github.com/sirupsen/logrus
+- package: gopkg.in/redis.v5
