@@ -4,4 +4,4 @@ User service go client
 
 ## Installation
 
-`go get bitbucket.lzd.co/lgms/user-service-go-client`
+`go get bitbucket.org/snapmartinc/user-service-client`
