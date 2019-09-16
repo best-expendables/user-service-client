@@ -8,13 +8,13 @@ import (
 )
 
 const (
-	authenticatePath     = "/authenticate"
-	mePath               = "/me"
+	authenticatePath     = "/users/authenticate"
+	mePath               = "/users/me"
 	platformsPath        = "/users/%s/platforms"
-	logoutPath           = "/logout"
+	logoutPath           = "/users/logout"
 	getPath              = "/users/%s"
 	getAllPath           = "/users?per_page=10000"
-	getRevokedTokensPath = "/revoked-tokens"
+	getRevokedTokensPath = "/users/revoked-tokens"
 )
 
 type HttpRequestBuilder interface {
