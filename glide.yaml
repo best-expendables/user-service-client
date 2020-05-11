@@ -1,4 +1,4 @@
-package: bitbucket.org/snapmartinc/user-service-client
+package: github.com/best-expendables/user-service-client
 import:
 - package: github.com/sirupsen/logrus
 - package: gopkg.in/redis.v5
